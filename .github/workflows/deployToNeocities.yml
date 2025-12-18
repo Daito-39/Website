@@ -33,4 +33,4 @@ jobs:
         cleanup: true
         neocities_supporter: true
         preview_before_deploy: true
-        dist_dir: Site
+        dist_dir: ./Site

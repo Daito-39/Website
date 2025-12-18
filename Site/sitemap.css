@@ -1,0 +1,21 @@
+#box {
+    width: 45%;
+    height: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: auto;
+    padding: 5px 5px 5px 50px;
+    border-radius: 15px;
+    opacity: 99%;
+    background-color: #514f75;
+}
+
+.navItem {
+    width: 10%;
+    margin: 5% 5% 5% 5%;
+    background-color: rgb(199, 145, 250);
+    border-radius: 10px;
+    padding-top: 5px;
+    text-align: center;
+}

@@ -1,0 +1,245 @@
+body {
+    background-color: #2C2A4A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0 5px 0;
+    border-radius: 15px;
+    min-height: 500px;
+    opacity: 99%;
+    background-color: #514f75;
+}
+
+#header {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 150px;
+    display: flex;
+}
+
+#body {
+    margin: 10px 15px 15px 15px;
+    min-height: 600px;
+    display: flex;
+}
+
+#footer {
+    background-color: #dabfff;
+    border-radius: 10px;
+    margin: 0px 15px 15px 15px;
+}
+
+#footer p {
+    text-align: center;
+    padding: 1%;
+}
+
+.sitepic {
+    border-radius: 50%;
+    margin-left: 0px;
+    border-style: solid;
+    border-color:#514f75;
+    min-height: 150px;
+    width: 150px;
+}
+
+.sitepic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#title {
+    width: 91%;
+    min-height: 150px;
+    border-style: dashed;
+    border-color: black;
+    border-top-right-radius: 15px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+#title h1 {
+    text-align: center;
+}
+
+#navigation {
+    background-color: #dabfff;
+    background-size: 100%;
+    background-repeat: repeat;
+    height: 620px;
+    width: 15%;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#group1 {
+    width: 35%;
+    height: 600px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#group2 {
+    width: 35%;
+    height: 600px;
+    margin-right: 1%;
+}
+
+#misc {
+    background-color: #dabfff;
+    border-radius: 10px;
+    margin-right: 0;
+    width: 15%;
+    height: 620px;
+}
+
+#welcome {
+    background-color: #dabfff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 64.5%;
+    margin-top: 0%;
+    border-radius: 10px;
+}
+
+#introduction {
+    padding: 5%;
+}
+
+#music{
+    background-color: #dabfff;
+    border-radius: 10px;
+    height: 34%;
+    margin-top: 5%;
+    display: flex;
+}
+
+#music img {
+    padding-top: 2.75%;
+    padding-left: 2%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    
+}
+
+#whatsonmind {
+    background-color: #dabfff;
+    height: 50%;
+    display: flex;
+    border-radius: 10px;
+}
+
+#speech {
+    background-image: url(images/SpeechBubble.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60%;
+}
+
+#speech p {
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+#picture {
+    height: 100%;
+    width: 40%;
+}
+
+#current {
+    background-color: #dabfff;
+    border-radius: 10px;
+    width: 100%;
+    height: 48.5%;
+    margin-top: 5%;
+}
+
+#currentlyontext {
+    width: 100%;
+    display: flex;
+}
+
+#currentlyontext p {
+    text-align: center;
+    padding-top: 5px;
+    width: 33%;
+}
+
+#currentlyon {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+}
+
+#currentlyon img {
+    width: 23%;
+    margin: auto;
+    height: fit-content;
+}
+
+#navbar {
+    margin-top: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#navtitle {
+    margin: 0 0 5% 0;
+    border-radius: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#visitorCounter {
+    margin: 0 0 5% 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#navitem {
+    margin: 5% 5% 5% 5%;
+    background-color: rgb(199, 145, 250);
+    border-radius: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#blinkies {
+    display: flex;
+    height: 32px;
+    justify-content: center;
+}
+
+#stamps {
+    height: 31px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+#updates {
+    overflow-y: scroll;
+    height: 30%;
+    width: 90%;
+    margin: auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #514f75;
+}
+
+#updates p {
+    border-bottom-style: solid;
+    border-bottom-color: #514f75;
+}

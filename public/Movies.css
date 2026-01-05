@@ -1,26 +1,5 @@
-h1 {
-    color: blanchedalmond;
-}
-
-h4, h5 {
-    color: blanchedalmond;
-}
-
-h5 a {
-    color: #f3ba64;
-}
-
 #box {
-    background-color: rgba(81, 79, 117, 0.3);
-}
-
-#navitem {
-    background-color: rgba(199, 145, 250, 0.5);
-    width: 100%;
-}
-
-#navitem p {
-    margin-top: -0.5em;
+    background-color: rgba(102, 100, 128, 0.897);
 }
 
 #footer {

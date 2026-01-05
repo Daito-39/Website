@@ -1,12 +1,8 @@
-body {
-    background-image: url(images/TheLastUnicornBackgroundImage.jpg);
-}
-
 h1 {
     color: blanchedalmond;
 }
 
-h5 {
+h4, h5 {
     color: blanchedalmond;
 }
 
@@ -20,6 +16,11 @@ h5 a {
 
 #navitem {
     background-color: rgba(199, 145, 250, 0.5);
+    width: 100%;
+}
+
+#navitem p {
+    margin-top: -0.5em;
 }
 
 #footer {

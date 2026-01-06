@@ -6,6 +6,10 @@ body {
     background-color: #A150C6;
 }
 
+#letterboxdLink {
+    color: cyan;
+}
+
 #navigation {
     background-color: #F4C7FF;
 }

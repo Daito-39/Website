@@ -116,8 +116,9 @@ p {
     border-radius: 10px;
 }
 
-#introduction {
-    padding: 5%;
+#introduction p {
+    margin: 5px;
+    overflow: hidden;
 }
 
 #latest{

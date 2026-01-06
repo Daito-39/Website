@@ -1,7 +1,27 @@
+body {
+    background-color: #CF78E7;
+}
+
 #box {
-    background-color: rgba(102, 100, 128, 0.897);
+    background-color: #A150C6;
+}
+
+#navigation {
+    background-color: #F4C7FF;
+}
+
+#navTitle {
+    color: #000000;
+}
+
+#navItem {
+    background-color: #F19BFC;
+}
+
+#articleItem {
+    background-color: #CF78E7;
 }
 
 #footer {
-    background-color: rgba(199, 145, 250, 0.5);
+    background-color: #F4C7FF;
 }

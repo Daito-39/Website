@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-color:rebeccapurple;
 }
 
 h1 {
@@ -22,11 +21,14 @@ h5 {
 
 h5 a {
     text-decoration: none;
-    color: violet;
 }
 
 a {
     text-decoration: none;
+}
+
+A:visited {
+    color: black;
 }
 
 img {
@@ -65,7 +67,6 @@ img {
 
 #heading {
     height: 150px;
-    width: auto;
 }
 
 #mainSection {
@@ -73,37 +74,39 @@ img {
 }
 
 #navigation {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 10px;
-    padding: 3px;
+    padding: 1%;
     width: 20%;
-    background-color: indigo;
 }
 
 #navbar {
     margin-top: 10%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#navTitle {
+    margin: 0 0 5% 0;
+    border-radius: 10px;
+    padding-top: 5px;
+    text-align: center;
 }
 
 #navItem {
-    margin: auto;
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    background-color: rgba(199, 145, 250, 0.5);
 }
 
 #articleItem {
-    margin: auto;
     margin-bottom: 3px;
     border-radius: 10px;
     padding-top: 5px;
     display: flex;
     width: 100%;
-    background-color: rgba(199, 145, 250, 0.5);
 }
 
 #removeColor {

@@ -117,7 +117,8 @@ p {
 }
 
 #introduction p {
-    margin: 5px;
+    margin: 0px 5px 5px 5px;
+    padding: 3%;
     overflow: hidden;
 }
 
@@ -126,15 +127,6 @@ p {
     border-radius: 10px;
     height: 34%;
     margin-top: 5%;
-}
-
-#music img {
-    padding-top: 2.75%;
-    padding-left: 2%;
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    
 }
 
 #whatsonmind {
@@ -222,13 +214,15 @@ p {
 
 #blinkies {
     display: flex;
-    max-width: 30%;
+    width: 30%;
+    width: fit-content;
     margin: auto;
     justify-content: center;
 }
 
 #stamps {
-    height: 31px;
+    max-height: 31px;
+    max-width: fit-content;
 }
 
 a:link, a:visited, a:hover, a:active {

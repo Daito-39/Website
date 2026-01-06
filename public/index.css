@@ -4,6 +4,10 @@ body {
   font-style: normal;
 }
 
+p {
+    overflow: hidden;
+}
+
 #box {
     width: 90%;
     margin-left: auto;

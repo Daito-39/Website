@@ -120,12 +120,11 @@ p {
     padding: 5%;
 }
 
-#music{
+#latest{
     background-color: #dabfff;
     border-radius: 10px;
     height: 34%;
     margin-top: 5%;
-    display: flex;
 }
 
 #music img {

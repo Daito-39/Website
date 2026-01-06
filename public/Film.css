@@ -22,8 +22,16 @@ body {
     background-color: #F19BFC;
 }
 
+#navItem:hover {
+    background-color: #CF78E7;
+}
+
 #articleItem {
     background-color: #CF78E7;
+}
+
+#articleItem:hover {
+    background-color: #F19BFC;
 }
 
 #footer {

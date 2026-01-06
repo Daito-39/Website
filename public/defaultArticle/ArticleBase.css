@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../images/S236.webp");
+    min-height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0%;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.box {
+    width: 60%;
+    margin: 20% auto 10% auto;
+    
+    padding: 5px 0 5px 0;
+    border-radius: 15px;
+    min-height: 1000px;
+
+    background-color: seashell;
+    opacity: 90%;
+}
+
+.title {
+    height: 150px;
+}
+
+.articleText {
+    text-align: justify;
+    margin: 2% 5% 0% 5%;
+    width: 90%;
+    min-height: 90%;
+}
+
+.fullJustify {
+  text-align: justify;
+  display:block;
+}

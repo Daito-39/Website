@@ -1,0 +1,35 @@
+body {
+    background-color: #B2B3F1;
+}
+
+#box {
+    background-color: #CEC2FF;
+}
+
+#navigation {
+    background-color: #DCB6D5;
+}
+
+#navTitle {
+    color: #000000;
+}
+
+#navItem {
+    background-color: #B15E6C;
+}
+
+#navItem:hover {
+    background-color: #CF8BA9;
+}
+
+#articleItem {
+    background-color: #B15E6C;
+}
+
+#articleItem:hover {
+    background-color: #CF8BA9;
+}
+
+#footer {
+    background-color: #DCB6D5;
+}

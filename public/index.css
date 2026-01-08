@@ -8,14 +8,6 @@ p {
     overflow: hidden;
 }
 
-a {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
 #box {
     width: 90%;
     margin-left: auto;

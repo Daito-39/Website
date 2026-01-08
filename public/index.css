@@ -8,6 +8,10 @@ p {
     overflow: hidden;
 }
 
+a {
+    color: black;
+}
+
 #box {
     width: 90%;
     margin-left: auto;

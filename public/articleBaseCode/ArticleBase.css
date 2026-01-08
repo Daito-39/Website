@@ -37,6 +37,15 @@ img {
     height: 350px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 .box {
     width: 60%;
     margin: 10% auto 10% auto;
@@ -51,6 +60,24 @@ img {
 
 .title {
     height: 150px;
+}
+
+.tableOfContents {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contentsItem {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: fit-content;
+    width: 100px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-align: center;
+    
+    
 }
 
 .articleText {
@@ -68,3 +95,9 @@ img {
 .imageFlex {
     display: flex;
 }
+
+.magicCard {
+    width: 25%;
+    height: auto;
+}
+

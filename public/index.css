@@ -221,8 +221,8 @@ p {
 }
 
 #stamps {
-    max-height: 31px;
-    max-width: fit-content;
+    width: 30%;
+    margin: 2%;
 }
 
 a:link, a:visited, a:hover, a:active {

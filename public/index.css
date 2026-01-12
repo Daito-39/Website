@@ -252,3 +252,38 @@ a:link, a:visited, a:hover, a:active {
     margin-right: 5%;
     border-radius: 10px;
 }
+
+#articleItem {
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 5px;
+    display: flex;
+    width: 90%;
+    background-color: rgb(199, 145, 250);
+}
+
+.removeColor {
+    color:black;
+}
+
+#articleItem h4 {
+    margin-top: 3%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+#articleItem h5 {
+    margin-top: 1%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+#articleItem p {
+    margin-top: 2px;
+}
+
+.thumbnail {
+    border-radius: 20px;
+    height: 100px;
+    padding: 10px;
+}

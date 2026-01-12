@@ -6,7 +6,7 @@ body {
     background-color: #CEC2FF;
 }
 
-#navigation {
+.navigation {
     background-color: #DCB6D5;
 }
 
@@ -28,6 +28,10 @@ body {
 
 #articleItem:hover {
     background-color: #CF8BA9;
+}
+
+.thumbnail {
+    border-radius: 20px;
 }
 
 #footer {

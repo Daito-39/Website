@@ -116,6 +116,10 @@ p {
     border-radius: 10px;
 }
 
+#introduction {
+    padding: 4%;
+}
+
 #introduction p {
     margin: 0px 5px 5px 5px;
     padding: 3%;

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: lightgrey;
+    background-color: rgb(187, 145, 195);
     min-height: 100%;
 
     background-attachment: fixed;
@@ -98,3 +98,13 @@ a {
     height: auto;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+td {
+    width: 33%;
+    padding-bottom: 1%;
+}

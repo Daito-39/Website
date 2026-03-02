@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(187, 145, 195);
+    min-height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, h5 {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 0%;
+}
+
+#body {
+    display: flex;
+}
+
+.box {
+    width: 60%;
+    margin: 5% auto 10% auto;
+    
+    padding: 5px 0 5px 0;
+    border-radius: 15px;
+    min-height: 1000px;
+
+    background-color: ivory;
+    opacity: 90%;
+
+    text-align: center;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    word-break: break-all;
+}

@@ -60,7 +60,7 @@ function handleResponse() {
     }
 
     if(!alreadyEntered) {
-        counter = counter + 6;
+        counter = counter + 3;
         time.textContent = counter;
 
         score++;

@@ -21,7 +21,6 @@ function startTheTime() {
             return;
         } else {
             time.textContent = counter;
-            console.log("timer -> " + counter);
         }
     }, 1000);
 }

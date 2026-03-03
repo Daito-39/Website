@@ -5,7 +5,7 @@ const listOfWords = document.getElementById('listOfWords');
 const pointCountSpan = document.getElementById('pointCountSpan');
 
 var start = true;
-var counter = 60;
+var counter = 15;
 var userList = [];
 var score = 0;
 

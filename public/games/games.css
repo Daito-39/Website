@@ -30,6 +30,10 @@ body {
     background-color: #D5AEB1;
 }
 
+.thumbnail {
+    border-radius: 20px;
+}
+
 #footer {
     background-color: #592DA4;
 }

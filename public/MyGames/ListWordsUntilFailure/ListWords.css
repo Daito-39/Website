@@ -52,3 +52,19 @@ p {
     
     word-break: break-all;
 }
+
+.contentsItem {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

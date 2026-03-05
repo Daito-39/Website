@@ -7,13 +7,15 @@ html {
 }
 
 body {
-    background-color: rgb(187, 145, 195);
-    min-height: 100%;
-
+    background-image: url("../images/JadeRabbitRedux.jpg");
+    background-position: center center;
     background-attachment: fixed;
-    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 0;
+    top: 0;
+    left: 0;
     background-repeat: no-repeat;
-    background-size: 100%;
 
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
@@ -54,7 +56,7 @@ a {
     min-height: 1000px;
 
     background-color: ivory;
-    opacity: 90%;
+    opacity: 95%;
 }
 
 .title {

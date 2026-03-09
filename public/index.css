@@ -190,9 +190,7 @@ a:hover {
 
 #currentlyon img:hover {
     box-shadow: 
-        0 0 40px 3px #fff,  /* inner white */
-        0 0 80px 6px #f0f, /* middle magenta */
-        0 0 120px 9px #0ff; /* outer cyan */
+        0 0 40px 6px #E8AEB7;
 }
 
 #navbar {
@@ -266,7 +264,6 @@ a:link, a:visited, a:hover, a:active {
     margin: auto;
     border-radius: 10px;
     padding-top: 5px;
-    display: flex;
     width: 90%;
     background-color: rgb(199, 145, 250);
 }
@@ -295,4 +292,8 @@ a:link, a:visited, a:hover, a:active {
     border-radius: 20px;
     height: 100px;
     padding: 10px;
+}
+
+.flex {
+    display: flex;
 }

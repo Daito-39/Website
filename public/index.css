@@ -244,9 +244,8 @@ a:link, a:visited, a:hover, a:active {
     height: 20%;
     width: 90%;
     margin: auto;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: #514f75;
+    border-style: inset;
+    border-radius: 3%;
 }
 
 #updates p {

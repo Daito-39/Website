@@ -32,19 +32,12 @@
         <div id="body">
             <div id="navigation">
                 <div id="navbar">
-                    <p id="navitem">Home</p>
-                    <div id="navheader">
-                        <p id="navtitle">Personal</p>
-                        <a href="general/general.html"><p id="navitem">Main Blog</p></a>
-                    </div>
-                    <div id="navheader">
-                        <p id="navtitle">Interests</p>
-                        <a href="films/Film.html"><p id="navitem">Films</p></a>
-                        <a href="music/music.html"><p id="navitem">Music</p></a>
-                        <a href="books/books.html"><p id="navitem">Books</p></a>
-                        <a href="games/games.html"><p id="navitem">Games</p></a>
-                        <a href="cards/cardGaming.html"><p id="navitem">Card Games</p></a>
-                    </div>
+                    <a href="general/general.html"><p id="navitem">Main Blog</p></a>
+                    <a href="films/Film.html"><p id="navitem">Films</p></a>
+                    <a href="music/music.html"><p id="navitem">Music</p></a>
+                    <a href="books/books.html"><p id="navitem">Books</p></a>
+                    <a href="games/games.html"><p id="navitem">Games</p></a>
+                    <a href="cards/cardGaming.html"><p id="navitem">Card Games</p></a>
                 </div>
                 <div id="blinkies">
                     <img id="stamps" src="images/CynStamp.webp" style="margin-left: 4%;">
@@ -93,10 +86,9 @@
             <div id="group2">
                 <div id="whatsonmind">
                     <div id="speech">
-                        New blog post up!
+                        No new post this week, sorry people.
                         <br><br>
-                        Should hopefully be working on an overhaul soon, got a bunch of job assessments to do beforehand though. And I am a little
-                        scared of getting around to doing the graphics for the site because i'm not very experienced with it.
+                        Started working on an overhaul of this page at the start of the week, but then fell pretty ill and haven't really been able to do much.
                     </div>
                 </div>
                 <div id="current">
@@ -142,35 +134,7 @@
             <p>Created by Daito, Hosted on NeoCities | <a href="sitemap/sitemap.html" style="color:turquoise;">sitemap</a></p>
         </div>
     </div>
-    <script>
-    //Visitor count code from https://daniele63.com/coding_tricks
-    const VISITOR_COUNTER = document.getElementById("visitorCounter");
-
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-        // Get the data
-        let site_data = JSON.parse(this.responseText);
-        // Add commas
-        let num_arr = site_data.info.views.toString().split("");
-        let num_str = "";
-        for (i = 0; i < num_arr.length; i++) {
-          num_str += num_arr[i];
-          if ((num_arr.length - 1 - i) % 3 == 0 && num_arr.length - 1 - i != 0) {
-            num_str += ",";
-            }
-        }
-        // Add result to html
-        VISITOR_COUNTER.innerHTML = num_str;
-        }
-    };
-    xhttp.open(
-        "GET",
-        "https://weirdscifi.ratiosemper.com/neocities.php?sitename=daito",
-        true
-    );
-    xhttp.send();
-    </script>
+    <script src="visitorCounter.js" type="text/javascript"></script>
 </body>
 
 </html>

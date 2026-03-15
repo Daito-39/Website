@@ -175,6 +175,10 @@ a, a:hover {
 
 
 @media (min-width: 850px) {
+    .body {
+        display: flex;
+    }
+
     .sidePanel {
         background-color: aqua;
     }

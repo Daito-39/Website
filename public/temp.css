@@ -46,6 +46,7 @@ a, a:hover {
 }
 
 .navItem {
+    padding: 0.75em 0 0.75em 0;
     background-color: rgb(199, 145, 250);
     border-radius: 0.25em;
     width: 33.33%;
@@ -103,15 +104,21 @@ a, a:hover {
     width: 55%;
 }
 
+.currentlyOn img:hover {
+    box-shadow: 
+        0 0 40px 6px #E8AEB7;
+}
+
 .sidePanel p {
     margin: 0%;
+    padding: 0.5em 0 0.25em 0;
     text-align: center;
 }
 
 .updates {
     overflow-y: scroll;
     height: 7em;
-    width: 25em;
+    width: 23em;
     margin: auto;
     border-style: inset;
 }
@@ -120,6 +127,7 @@ a, a:hover {
     text-align: left;
     border-bottom-style: solid;
     border-bottom-color: #514f75;
+    padding: 0;
 }
 
 .stamps {
@@ -130,6 +138,25 @@ a, a:hover {
     width: 4em;
 }
 
+.guestBook {
+    width: 90%;
+    height: 20em;
+    margin-left: 5%;
+    border-radius: 0.5em;
+}
+
+.footer {
+    margin-top: 0.25em;
+    padding: 0.25em;
+    background-color: #dabfff;
+    max-width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
+}
+
+.footer a {
+    color: dodgerblue;
+}
 
 
 

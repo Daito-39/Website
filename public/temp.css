@@ -122,6 +122,13 @@ a, a:hover {
     border-bottom-color: #514f75;
 }
 
+.stamps {
+    margin: 0.25em;
+    justify-content: center;
+}
+.stamps img {
+    width: 4em;
+}
 
 
 

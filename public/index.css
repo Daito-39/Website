@@ -4,296 +4,275 @@ body {
   font-style: normal;
 }
 
-p {
-    overflow: hidden;
-}
-
-a {
+a, a:hover {
     color: black;
     text-decoration: none;
 }
 
-a:hover {
-    color: black;
-    text-decoration: none;
+
+.header {
+    margin:0.5% 0 0.5% 0;
 }
 
-#box {
-    width: 90%;
+.title {
+    max-width: 100%;
+    border-color: black;
+    border-style: dashed;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 0 5px 0;
-    border-radius: 15px;
-    min-height: 500px;
-    opacity: 99%;
-    background-color: #514f75;
-}
-
-#header {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    min-height: 150px;
-    display: flex;
-}
-
-#body {
-    margin: 10px 15px 15px 15px;
-    min-height: 600px;
-    display: flex;
-}
-
-#footer {
-    background-color: #dabfff;
-    border-radius: 10px;
-    margin: 0px 15px 15px 15px;
-}
-
-#footer p {
-    text-align: center;
-    padding: 1%;
-}
-
-.sitepic {
-    border-radius: 50%;
-    margin-left: 0px;
-    border-style: solid;
-    border-color:#514f75;
-    min-height: 150px;
-    width: 150px;
-}
-
-.sitepic img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#title {
-    width: 91%;
-    min-height: 150px;
-    border-style: dashed;
-    border-color: black;
-    border-top-right-radius: 15px;
-    margin-left: 5px;
-    margin-right: 0px;
-}
-
-#title h1 {
     text-align: center;
 }
 
-#navigation {
+.sidePanel {
+    margin-top: 0.25em;
     background-color: #dabfff;
-    background-size: 100%;
-    background-repeat: repeat;
-    height: 620px;
-    width: 15%;
-    margin: 0;
-    border-radius: 10px;
-}
-
-#group1 {
-    width: 35%;
-    height: 600px;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-#group2 {
-    width: 35%;
-    height: 600px;
-    margin-right: 1%;
-}
-
-#misc {
-    background-color: #dabfff;
-    border-radius: 10px;
-    margin-right: 0;
-    width: 15%;
-    height: 620px;
-}
-
-#welcome {
-    background-color: #dabfff;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 64.5%;
-    margin-top: 0%;
-    border-radius: 10px;
-}
-
-#introduction {
-    padding: 3%;
-    overflow: hidden;
-}
-
-#latest{
-    background-color: #dabfff;
-    border-radius: 10px;
-    height: 34%;
-    margin-top: 5%;
-}
-
-#whatsonmind {
-    background-color: #dabfff;
-    height: 50%;
-    display: flex;
-    border-radius: 10px;
-}
-
-#speech {
-    height: 90%;
-    width: 70%;
-    padding: 15%;
-}
-
-#picture {
-    height: 100%;
-    width: 40%;
-}
-
-#current {
-    background-color: #dabfff;
-    border-radius: 10px;
-    width: 100%;
-    height: 48.5%;
-    margin-top: 5%;
-}
-
-#currentlyontext {
-    width: 100%;
-    display: flex;
-}
-
-#currentlyontext p {
-    margin-top: 5%;
-    text-align: center;
-    width: 33%;
-}
-
-#currentlyon {
-    width: 100%;
-    margin-top: 2%;
-    display: flex;
-}
-
-#currentlyon img {
-    width: 23%;
-    margin: auto;
+    max-width: 100%;
     height: fit-content;
-    border-radius: 2%;
+    border-radius: 0.25em;
 }
 
-#currentlyon img:hover {
-    box-shadow: 
-        0 0 40px 6px #E8AEB7;
-}
-
-#navbar {
-    margin-top: 10%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-#navtitle {
-    margin: 0 0 5% 0;
-    border-radius: 10px;
-    padding-top: 5px;
-    text-align: center;
-}
-
-#navitem {
-    margin: 5% 5% 5% 5%;
-    background-color: rgb(199, 145, 250);
-    border-radius: 10px;
-    padding-top: 5px;
-    text-align: center;
-}
-
-#visitorCounter {
-    margin: 0 0 5% 0;
-    border-radius: 5px;
-    text-align: center;
-}
-
-#blinkies {
+.navBar {
     display: flex;
-    width: 30%;
-    width: fit-content;
-    margin: auto;
+    width: 100%;
     justify-content: center;
 }
 
-#stamps {
-    width: 30%;
-    margin: 2%;
+.navBar a {
+    padding: 0.4em 0;
+    background-color: rgb(199, 145, 250);
+    border-radius: 0.25em;
+    width: calc(100% / 3);
 }
 
-a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
+.navBar p {
+    text-align: center;
 }
 
-#updates {
+.navBar a:hover {
+    background-color: rgb(173, 107, 235);
+}
+
+.visits {
+    display: none;
+}
+
+.panel {
+    margin-top: 0.25em;
+    background-color: #dabfff;
+    max-width: 100%;
+    height: fit-content;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.latestPost {
+    margin-top: 0.25em;
+    background-color: rgb(199, 145, 250);
+    border-radius: 0.25em;
+    display: flex;
+    height:fit-content;
+}
+
+.latestPost:hover {
+    background-color: rgb(173, 107, 235);
+}
+
+.latestPost img {
+    margin: 0.5em;
+    width: 3.5em;
+    border-radius: 0.5em;
+}
+
+.latestPost h4 {
+    margin-top: 1em;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.latestPost h5 {
+    margin: 0%;
+    text-align: left;
+}
+
+.latestPost p {
+    margin-top: 2%;
+    font-size: smaller;
+}
+
+#panel4 {
+    display: flex;
+}
+
+.currentlyOn {
+    width: 33.33%;
+    width: calc(100% / 3);
+}
+
+.currentlyOn img {
+    width: 55%;
+    border-radius: 0.25em;
+}
+
+.currentlyOn img:hover {
+    box-shadow: 
+        0 0 40px 6px #C0F5FA;
+}
+
+.sidePanel p {
+    margin: 0%;
+    padding: 0.5em 0 0.25em 0;
+    text-align: center;
+}
+
+.updates {
     overflow-y: scroll;
-    height: 20%;
-    width: 90%;
+    height: 7em;
+    width: 23em;
     margin: auto;
     border-style: inset;
-    border-radius: 3%;
 }
 
-#updates p {
+.updates p {
+    text-align: left;
     border-bottom-style: solid;
     border-bottom-color: #514f75;
+    padding: 0;
 }
 
-#guestBook {
+.stamps {
+    margin: 0.25em;
+}
+.stamps img {
+    width: 4em;
+}
+
+.guestBook {
     width: 90%;
-    height: 50%;
-    position: relative;
+    height: 20em;
     margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
+    border-radius: 0.5em;
 }
 
-#articleItem {
-    margin: auto;
-    border-radius: 10px;
-    padding-top: 5px;
-    width: 90%;
-    background-color: rgb(199, 145, 250);
+.footer {
+    margin-top: 0.25em;
+    padding: 0.25em;
+    background-color: #dabfff;
+    max-width: 100%;
+    border-radius: 0.25em;
+    text-align: center;
 }
 
-.removeColor {
-    color:black;
+.footer a {
+    color: dodgerblue;
 }
 
-#articleItem h4 {
-    margin-top: 3%;
-    margin-bottom: 0%;
-    text-align: left;
-}
 
-#articleItem h5 {
-    margin-top: 1%;
-    margin-bottom: 0%;
-    text-align: left;
-}
+@media (min-width: 900px) {
+    body {
+        background-image: url("images/Windows_XP_Bliss.jpg");
+        background-size: cover;
+    }
 
-#articleItem p {
-    margin-top: 2px;
-}
+    .box {
+        margin: 3% auto 0 auto;
+        width: 95%;
+        padding: 0.5em;
+    }
 
-.thumbnail {
-    border-radius: 20px;
-    height: 100px;
-    padding: 10px;
-}
+    .body {
+        display: flex;
+    }
 
-.flex {
-    display: flex;
+    .sidePanel {
+        min-width: 10%;
+        margin-right: 0.5em;
+        padding: 0.5em 0;
+        height: fit-content;     
+    }
+
+    .navBar {
+        margin: 0;
+        display: inline;
+    }
+
+    .navBar p {
+        margin: 0.75em auto 0.75em auto;
+        width: 70%;
+        background-color: rgb(199, 145, 250);
+        padding: 0.5em 0;
+        border-radius: 0.25em;
+    }
+
+    .navBar p:hover {
+        background-color: rgb(173, 107, 235);
+    }
+
+    #navBar3 {
+        margin-top: 2em;
+    }
+
+    .visits {
+        display: initial;
+    }
+
+    .visits p {
+        font-size: smaller;
+    }
+
+    .leftPanels {
+        margin-right: 0.5em;
+        width: 100%;
+    }
+    
+    #panel1 {
+        margin-bottom: 0.5em;
+        padding: 3em 1.5em 1.5em 1.5em;
+        height: 50%;
+    }
+
+    #panel2 {
+        height: fit-content;
+        padding: 2em 1em 1em 1em;
+    }
+
+    .latestPost {
+        margin-top: 2em;
+    }
+
+    .rightPanels {
+        margin-right: 0.5em;
+    }
+
+    #panel3 {
+        margin-bottom: 0.5em;
+        height: 40%;
+    }
+
+    #panel4 {
+        height: fit-content;
+    }
+
+    .currentlyOn img {
+        margin-top: 2em;
+    }
+
+    #side2 {
+        margin-right: 0;
+    }
+
+    .updates {
+        max-width: 80%;
+    }
+
+    .stamps img {
+        width: 4em;
+    }
+
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding: 0.5em 0;
+    }
 }

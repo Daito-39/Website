@@ -163,7 +163,7 @@ a, a:hover {
 }
 
 
-@media (min-width: 850px) {
+@media (min-width: 900px) {
     body {
         background-image: url("images/Windows_XP_Bliss.jpg");
         background-size: cover;
@@ -242,6 +242,10 @@ a, a:hover {
 
     .updates {
         max-width: 80%;
+    }
+
+    .stamps img {
+        width: 4em;
     }
 
     .footer {

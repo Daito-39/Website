@@ -52,6 +52,10 @@ a, a:hover {
     background-color: rgb(173, 107, 235);
 }
 
+#mobileNavBar3 {
+    margin-top: 0.4em;
+}
+
 .visits {
     display: none;
 }
@@ -206,6 +210,10 @@ a, a:hover {
 
     .navBar p:hover {
         background-color: rgb(173, 107, 235);
+    }
+
+    #mobileNavBar3 {
+        margin-top: 0%;
     }
 
     #navBar3 {

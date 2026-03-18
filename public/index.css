@@ -1,3 +1,8 @@
+@font-face {
+  font-family: misa;
+  src: url("images/13_Misa.TTF");
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -44,6 +49,7 @@ a, a:hover {
 
 .navBar p {
     text-align: center;
+    font-family: misa;
 }
 
 .navBar a:hover {

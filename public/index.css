@@ -16,8 +16,6 @@ a, a:hover {
 
 .title {
     max-width: 100%;
-    border-color: black;
-    border-style: dashed;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -176,6 +174,10 @@ a, a:hover {
     body {
         background-image: url("images/Windows_XP_Bliss.jpg");
         background-size: cover;
+    }
+
+    .header {
+        background-image: none;
     }
 
     .box {

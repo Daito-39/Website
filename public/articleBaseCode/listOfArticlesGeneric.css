@@ -139,3 +139,43 @@ img {
     text-align: center;
     padding: 1%;
 }
+
+@-webkit-keyframes fadeInUp{
+  0%{
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100%{
+    opacity: 0.8;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp{
+  0%{
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100%{
+    opacity: 0.8;
+    -webkit-transform: translateY(0);
+  }
+}
+
+.fade-in-element {
+    opacity: 1;
+    animation:fadeInUp 0.75s;
+    -webkit-animation:fadeInUp 0.75s;
+    animation-fill-mode: backwards;
+    -webkit-animation-fill-mode: backwards;
+}
+
+.animation-delay-1 {
+    animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+}
+
+.animation-delay-2 {
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}

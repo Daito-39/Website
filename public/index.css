@@ -262,6 +262,14 @@ a, a:hover {
         flex-direction: row-reverse;
     }
 
+    .windowBar p {
+        margin-top: 0.75%;
+        margin-right: auto;
+        margin-left: 1%;
+        font-family: misa;
+        color:paleturquoise;
+    }
+
     .windowIcon {
         display: initial;
         align-self: center;

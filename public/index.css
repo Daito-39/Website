@@ -265,7 +265,7 @@ a, a:hover {
     .windowIcon {
         display: initial;
         align-self: center;
-        text-align: center;
+        padding: 0 0.1em 0.2em 0.1em;
         margin-right: 0.2em;
         font-size: smaller;
         border: 0.25em ridge rgba(140, 113, 177, 0.85);
@@ -275,10 +275,6 @@ a, a:hover {
         border-left: 0.15em solid rgba(255, 255, 255, 0.85);
         border-right: 0.15em solid rgba(121, 87, 168, 0.85);
         border-bottom: 0.15em solid rgba(121, 87, 168, 0.85);
-
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
     }
 
     .windowIcon:active {
@@ -287,6 +283,23 @@ a, a:hover {
         border-right: 0.15em solid rgba(255, 255, 255, 0.85);
         border-bottom: 0.15em solid rgba(255, 255, 255, 0.85);
     } 
+
+    .close {
+        background-image: url("images/X.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .maximise {
+        background-image: url("images/Box.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .minimise {
+        background-image: url("images/Minimise.png");
+        background-size: cover;
+        background-position: center;
+    }
     
     #panel1 {
         margin-bottom: 0.5em;

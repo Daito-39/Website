@@ -268,6 +268,10 @@ a, a:hover {
         margin-left: 1%;
         font-family: misa;
         color:paleturquoise;
+
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
 
     .windowIcon {

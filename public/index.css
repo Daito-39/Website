@@ -345,8 +345,12 @@ a, a:hover {
 
     .updates {
         max-width: 80%;
+        height: 10em;
     }
 
+    .stamps {
+        margin: 1em 0.5em;
+    }
     .stamps img {
         width: 4em;
     }

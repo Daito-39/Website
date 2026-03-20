@@ -246,7 +246,7 @@ a, a:hover {
 
     .leftPanels {
         margin-right: 0.5em;
-        width: 100%;
+        min-width: 35%;
     }
 
     .windowBar {
@@ -303,8 +303,8 @@ a, a:hover {
     
     #panel1 {
         margin-bottom: 0.5em;
-        padding: 0 0 1em 0;
-        height: 50%;
+        padding: 0 0 10em 0;
+        height: fit-content;
     }
 
     #panel2 {
@@ -314,16 +314,18 @@ a, a:hover {
 
     .latestPost {
         margin: 0.5em 1em;
+
     }
 
     .rightPanels {
         margin-right: 0.5em;
+        min-width: 40%;
     }
 
     #panel3 {
         margin-bottom: 0.5em;
-        padding: 0 0 1em 0;
-        height: 40%;
+        padding: 0 0 10em 0;
+        height: fit-content;
     }
 
     #panel4 {
@@ -338,6 +340,7 @@ a, a:hover {
 
     #side2 {
         margin-right: 0;
+        max-width: 15%;
     }
 
     .updates {

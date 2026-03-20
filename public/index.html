@@ -54,30 +54,34 @@
                     <div class="windowBar">
                         <div class="windowIcon close"></div>
                         <div class="windowIcon maximise"></div>
-                        <div class="windowIcon minimise"></div>
+                        <div class="windowIcon minimise" onclick="minimise_panel(1)"></div>
                     </div>
-                    Hello and welcome to my little corner of the internet!
-                    <br><br>
-                    Still very much under construction (as you can probably tell), but making progress.
-                    <br><br>
-                    Feel free to take a look around.
+                    <div id="panel1Media">
+                        Hello and welcome to my little corner of the internet!
+                        <br><br>
+                        Still very much under construction (as you can probably tell), but making progress.
+                        <br><br>
+                        Feel free to take a look around.
+                    </div>
                 </div>
                 <!--Latest Blog Post-->
                 <div class="panel" id="panel2">
                     <div class="windowBar">
                         <div class="windowIcon close"></div>
                         <div class="windowIcon maximise"></div>
-                        <div class="windowIcon minimise"></div>
+                        <div class="windowIcon minimise" onclick="minimise_panel(2)"></div>
                     </div>
-                    Latest blog post:
-                    <a href="general/Articles/life_updates_6_3_26.html"><div class="latestPost">
-                        <img src="images/JadeRabbitReduxCrop.jpg" alt="The logo for The Jade Rabbit from Destiny 2">
-                        <div>
-                            <h4>Life Update</h4>
-                            <h5>06/03/2026</h5>
-                            <p>Where I've been these last few weeks.</p>
-                        </div>
-                    </div></a>
+                    <div id="panel2Media">
+                        Latest blog post:
+                        <a href="general/Articles/life_updates_6_3_26.html"><div class="latestPost">
+                            <img src="images/JadeRabbitReduxCrop.jpg" alt="The logo for The Jade Rabbit from Destiny 2">
+                            <div>
+                                <h4>Life Update</h4>
+                                <h5>06/03/2026</h5>
+                                <p>Where I've been these last few weeks.</p>
+                            </div>
+                        </div></a>
+                    </div>
                 </div>
             </div>
 
@@ -87,18 +91,20 @@
                     <div class="windowBar">
                         <div class="windowIcon close"></div>
                         <div class="windowIcon maximise"></div>
-                        <div class="windowIcon minimise"></div>
+                        <div class="windowIcon minimise" onclick="minimise_panel(3)"></div>
                     </div>
-                    Spent a bunch of time working towards coding certifications today.
+                    <div id="panel3Media">
+                        Spent a bunch of time working towards coding certifications today.
+                    </div>
                 </div>
                 <!--Current-->
                 <div class="panel" id="panel4">
                     <div class="windowBar">
                         <div class="windowIcon close"></div>
                         <div class="windowIcon maximise"></div>
-                        <div class="windowIcon minimise"></div>
+                        <div class="windowIcon minimise" onclick="minimise_panel(4)"></div>
                     </div>
-                    <div class="flex">
+                    <div class="flex" id="panel4Media">
                         <div class="currentlyOn">
                             <p>Last Watched:</p>
                             <img src="https://a.ltrbxd.com/resized/sm/upload/jc/9p/19/zx/oie_1512543TJ3vNUDP-0-1000-0-1500-crop.jpg?v=8b2686919f">
@@ -156,4 +162,5 @@
     </div>
 
     <script src="visitorCounter.js" type="text/javascript"></script>
+    <script src="togglePanel.js" type="text/javascript"></script>
 </body>

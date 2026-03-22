@@ -1,19 +1,39 @@
-function Player_Object (name, role, align, hand, maxHealth) {
-    this.name = name;
-    this.role = role;
-    this.align = align;
-    this.hand = hand;
-    this.board = [];
-    this.health = maxHealth;
-    this.Max_Health = maxHealth;
-    this.range = 1;
+function Player_Object (name, role, align, maxHealth) {
+    this.name = name,
+    this.role = role,
+    this.align = align,
+    this.maxHealth = maxHealth,
+    
+    this.health = maxHealth,
+    this.hand = [],
 
-    this.onHit = function() {
-        this.health--;
+    this.weapon = {
+        weaponName: "Colt .45",
+        shotsPerTurn: 1,
+        range: 1
+    },
+    this.horse = {
+        name: "",
+        bonus: ""
+    },
+    this.barrel = false,
+    this.jail = false,
+    this.dynamite = false,
+    this.scope = false,
+
+    this.onHit = function(damage) {
+        this.health -= damage;
         if (this.health <= 0) {
-            //Check to use beer card here
+            this.hand.forEach(hasBeer);
             playerDead(this.name);
+        }
+    },
+
+    function hasBeer(value, index) {
+        if (value == "beer") {
+            this.health++;
+            this.hand.splice(index, 1);
+            this.hand.forEach(hasBeer);
         }
     }
 }
-

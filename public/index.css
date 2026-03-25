@@ -190,8 +190,8 @@ a, a:hover {
         background-size: cover;
     }
 
-    .header {
-        background-image: none;
+    h1 {
+        font-family: winPrompt;
     }
 
     .box {
@@ -208,7 +208,7 @@ a, a:hover {
         min-width: 10%;
         margin-right: 0.5em;
         padding: 0.5em 0;
-        height: fit-content;     
+        height: fit-content;
     }
 
     .navBar {
@@ -234,10 +234,6 @@ a, a:hover {
 
     #navBar3 {
         margin-top: 2em;
-    }
-
-    .visits {
-        display: initial;
     }
 
     .visits p {
@@ -315,7 +311,7 @@ a, a:hover {
     
     #panel1 {
         margin-bottom: 0.5em;
-        padding: 0 0 10em 0;
+        padding: 0 0 5em 0;
         height: fit-content;
     }
 
@@ -338,6 +334,10 @@ a, a:hover {
         margin-bottom: 0.5em;
         padding: 0 0 10em 0;
         height: fit-content;
+    }
+
+    #panel3Media {
+        margin: 0 2em;
     }
 
     #panel4 {

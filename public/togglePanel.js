@@ -26,7 +26,7 @@ function minimise_panel(panelNo) {
 function return_panel(panelNo) {
     if (panelNo == 1) {
         panel1Media.style.display = 'initial';
-        panel1.style.paddingBottom = '10em';
+        panel1.style.paddingBottom = '5em';
     } else if (panelNo == 2) {
         panel2Media.style.display = 'initial';
         panel2.style.paddingBottom = '0.5em';

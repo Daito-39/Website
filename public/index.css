@@ -130,7 +130,7 @@ a, a:hover {
     border-radius: 0.25em;
 }
 
-.currentlyOn img:hover {
+.hoverGlow:hover {
     box-shadow: 
         0 0 40px 6px #C0F5FA;
 }

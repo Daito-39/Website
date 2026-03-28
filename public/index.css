@@ -130,9 +130,14 @@ a, a:hover {
     border-radius: 0.25em;
 }
 
-.hoverGlow:hover {
+.hoverGlowBlue:hover {
     box-shadow: 
         0 0 40px 6px #C0F5FA;
+}
+
+.hoverGlowPink:hover {
+    box-shadow: 
+        0 0 40px 6px #c886e7;
 }
 
 .sidePanel p {

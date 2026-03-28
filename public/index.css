@@ -336,7 +336,7 @@ a, a:hover {
     
     #panel1 {
         margin-bottom: 0.5em;
-        padding: 0 0 5em 0;
+        padding: 0 0 0.5em 0;
         height: fit-content;
     }
 
@@ -357,12 +357,18 @@ a, a:hover {
 
     #panel3 {
         margin-bottom: 0.5em;
-        padding: 0 0 10em 0;
+        padding: 0 0 0.5em 0;
         height: fit-content;
     }
 
     #panel3Media {
         margin: 0 2em;
+        border-radius: 2em;
+        display: inline-flex;
+    }
+
+    #panel3Media img {
+        margin: 0.5em 0 0.5em 0.5em;
     }
 
     #panel4 {

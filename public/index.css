@@ -161,6 +161,41 @@ a, a:hover {
     padding: 0;
 }
 
+.marquee {
+    margin: 0.25em auto auto;
+    height: 4em;
+    width: 90%;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee div {
+    
+    display: block;
+    width: 500%;
+    height: 3em;
+
+    position: absolute;
+    overflow: hidden;
+
+    animation: marquee 5s linear infinite;
+}
+
+.marquee span {
+    float: left;
+    width: 50%;
+}
+
+@keyframes marquee {
+    0% { left: 0%; }
+    100% { left: -250% }
+}
+
+.stamp {
+    width: 4em;
+}
+
 .stamps {
     margin: 0.25em;
 }

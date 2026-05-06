@@ -173,13 +173,13 @@ a, a:hover {
 .marquee div {
     
     display: block;
-    width: 500%;
+    width: 1100%;
     height: 3em;
 
     position: absolute;
     overflow: hidden;
 
-    animation: marquee 5s linear infinite;
+    animation: marquee 7.5s linear infinite;
 }
 
 .marquee span {
@@ -189,7 +189,7 @@ a, a:hover {
 
 @keyframes marquee {
     0% { left: 0%; }
-    100% { left: -250% }
+    100% { left: -550% }
 }
 
 .stamp {
@@ -419,8 +419,7 @@ a, a:hover {
     }
 
     .currentlyOn img {
-        margin-top: 0.5em;
-        margin-bottom: 1.5em;
+        margin: 0.5em 0em 1em;
     }
 
     #side2 {

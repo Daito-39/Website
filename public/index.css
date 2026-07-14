@@ -3,6 +3,77 @@
   src: url("images/13_Misa.TTF");
 }
 
+@keyframes marquee {
+    0% { left: 0%; }
+    100% { left: -550%; }
+}
+
+@-webkit-keyframes fadeInUp{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.fade-in-element {
+    opacity: 1;
+    animation:fadeInUp 0.3s;
+    -webkit-animation:fadeInUp 0.3s;
+    animation-fill-mode: backwards;
+    -webkit-animation-fill-mode: backwards;
+}
+
+.animation-delay-1 {
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+
+.animation-delay-2 {
+    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+}
+
+.animation-delay-3 {
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+}
+
+.animation-delay-4 {
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+}
+
+.animation-delay-5 {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.animation-delay-6 {
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+}
+
+.animation-delay-7 {
+    animation-delay: 1.4s;
+    -webkit-animation-delay: 1.4s;
+}
+
+.animation-delay-8 {
+    animation-delay: 1.6s;
+    -webkit-animation-delay: 1.6s;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
@@ -185,11 +256,6 @@ a, a:hover {
 .marquee span {
     float: left;
     width: 50%;
-}
-
-@keyframes marquee {
-    0% { left: 0%; }
-    100% { left: -550% }
 }
 
 .stamp {

@@ -1,0 +1,157 @@
+body {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    margin-top: 5%;
+    margin-bottom: 0%
+}
+
+h2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    margin: auto 20%;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    color: midnightblue;
+}
+
+video {
+    margin: auto;
+}
+
+.auto-margin-left {
+    margin-left: auto;
+}
+
+.auto-margin-right {
+    margin-right: auto;
+}
+
+.margin-left-right {
+    margin: auto 1%;
+}
+
+.margin-bottom {
+    margin-bottom: 2.5%;
+}
+
+.flex {
+    display: flex;
+}
+
+.centered-items {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.border-radius {
+    border-radius: 1rem;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navigation {
+    margin: 2.5% 0.5%;
+    width: 10%;
+    min-width: 150px;
+    height: 305px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(214, 233, 250);
+}
+
+.panel {
+    margin: 2.5% 1% 0 0;
+    width: 90%;
+    height: fit-content;
+    background-color: rgb(214, 233, 250);
+}
+
+.nav-item-list {
+    margin: 25% 5%;
+}
+
+.nav-item {
+    margin: 5% 5% 8%;
+    background-color:slateblue;
+    text-align: center;
+}
+
+.nav-item:hover {
+    background-color: antiquewhite;
+}
+
+.social-img-width {
+    width: 2%;
+    min-width: 25px;
+}
+
+.social-img {
+    align-self: center;
+    width: 100%;
+}
+
+.portfolio-item {
+    margin: 2.5% 15% 2.5%;
+}
+
+.portfolio-image {
+    max-height: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-description h4 {
+    text-align: center;
+}
+
+.portfolio-description p {
+    margin-left: 2.5%;
+}
+
+.portfolio-description a {
+    color:slateblue;
+}
+
+.hr-major {
+    margin: auto 10%;
+}
+
+.hr-minor {
+    margin: auto 25%;
+}
+
+@media (min-width: 1100px) {
+    .portfolio-item {
+        display: flex;
+    }
+
+    .portfolio-description {
+        max-width: 60%;
+    }
+}

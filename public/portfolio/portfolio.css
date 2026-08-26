@@ -2,6 +2,10 @@ body {
   font-family: "Crete Round", serif;
   font-weight: 400;
   font-style: normal;
+  background-image: url("../images/Windows_XP_Bliss.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -79,7 +83,7 @@ video {
     margin: 2.5% 0.5%;
     width: 10%;
     min-width: 150px;
-    height: 305px;
+    height: fit-content;
     position: sticky;
     top: 0;
     background-color: rgb(214, 233, 250);
@@ -93,7 +97,7 @@ video {
 }
 
 .nav-item-list {
-    margin: 25% 5%;
+    margin: 5% 5%;
 }
 
 .nav-item {

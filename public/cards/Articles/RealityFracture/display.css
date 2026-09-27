@@ -1,0 +1,18 @@
+.color_toggle {
+    margin: auto;
+    background-color: aqua;
+    border-radius: 5%;
+    padding: 2% 5%;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.color_toggle:hover {
+    background-color: blue;
+}
+
+.color_toggle:active {
+    background-color: darkviolet;
+}

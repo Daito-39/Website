@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<head>
+    <link rel="icon" href="../../../images/SiteIcon.png">
+    <title>Reality Fracture Instant Speed Disruption</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../articleBaseCode/ArticleBase.css">
+    <link rel="stylesheet" type="text/css" href="display.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Reality Fracture Instant Speed Disruption"/>
+    <meta property="og:image" content="INSERT_IMAGE_LINK"/>
+    <meta property="og:image:width" content="IMG_WIDTH" />
+    <meta property="og:image:height" content="IMG_HEIGHT"/>
+    <meta property="og:description" content="Tool to view the possible instant speed interaction the opponent may be holding open."/>
+    <meta property="og:url" content="https://daito.blog/cards/Articles/RealityFracture/RFInstant"/>
+    <meta property="og:type" content="website"/>
+</head>
+<body>
+    <div class="box">
+        <a href="../../cardGaming.html"><p class="contentsItem" style="margin-left: 5%;">return</p></a>
+        <div class="title">
+            <h1>Reality Fracture Instant Speed Disruption</h1>
+            <h5>27/9/26</h5>
+        </div>
+        <div class="articleText">
+            <span class="fullJustify">
+                This is a thing I've wanted to set myself to start doing for every set. Partially for myself, although I'm currently able to look
+                at the set quite thoroughly to prepare myself for limited environments (although even I missed one conditional counterspell at my
+                last prerelease), but also as a way for me to implement an easy interface forpeople to see the interaction the opponent could be
+                holding mana open for. This page focuses on the cards that can interfere with you, so not included is things like the basic landcyclers.
+                <br><br>
+                To use this page, look at the open mana the opponent has, and click on the buttons below that they <i>don't</i> have available.
+                <br><br>
+                <i>For example, if your opponent has 2 plains and a swamp open, you click on Blue, Red, Green and Four or more, and you'll be left with
+                the possibilities they have left.</i>
+                <br><br>
+                I apologise for how rushed the layout is, I plan on working to improve it over the next few days. Also, I have yet to implement functionality for
+                filtering multicolor cards by color, so for the time being they're only filtered depending on the mana value. For a quick reset you can just refresh
+                the page.
+                <br><br><hr><br>
+                <div style="display: flex;">
+                    <div class="color_toggle" onclick="toggle_color(1)">White</div>
+                    <div class="color_toggle" onclick="toggle_color(2)">Blue</div>
+                    <div class="color_toggle" onclick="toggle_color(3)">Black</div>
+                    <div class="color_toggle" onclick="toggle_color(4)">Red</div>
+                    <div class="color_toggle" onclick="toggle_color(5)">Green</div>
+                </div>
+                <br>
+                <div style="display: flex;">
+                    <div class="color_toggle" onclick="toggle_mv(1)">One or less</div>
+                    <div class="color_toggle" onclick="toggle_mv(2)">Two</div>
+                    <div class="color_toggle" onclick="toggle_mv(3)">Three</div>
+                    <div class="color_toggle" onclick="toggle_mv(4)">Four or more</div>
+                </div>
+                <br><br>
+                <div id="White">
+                    <h3>White</h3>
+                    <br>
+                    <h5>Combat Tricks</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/5/f/5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/7/3/730d8c28-1e58-4b8e-89e9-445d154d2e83.webp">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/1/b/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.webp">
+                    </div>
+                    <div class="three"><br>*Germinate recruits is only relevant if the opponent has gained life this turn.</div>
+                    <br>
+                    <h5>Removal</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/2/5/25000a17-b701-4d69-b2ef-2c74029199d3.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/1/f/1f95399a-9766-4f3d-aa6a-ece55e0530d9.webp">
+                    </div>
+                </div>
+                <div id="Blue">
+                    <br><br>
+                    <h3>Blue</h3>
+                    <br>
+                    <h5>Combat Tricks</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard one" src="https://cards.scryfall.io/grid/front/4/5/45e81487-8b8c-480b-922a-eaa9edc7201d.webp">
+                        <img class="magicCard one" src="https://cards.scryfall.io/grid/front/d/0/d0ecae06-bc5a-4886-84df-c2900816f226.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/8/d/8d754b96-5e44-45af-9c7a-b0da59fbe4c3.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/7/1/710302ca-c4be-4069-8ce1-f531414c74e9.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/9/6/960c7335-331d-488b-be68-2ad1c1c695dc.webp">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/2/8/282588b9-3656-453b-aa25-2419e078ddc1.webp">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/0/8/08ffbd51-2bd3-4262-8809-09576ce2b6f5.webp">
+                    </div>
+                    <div class="three">
+                        <br>*Jace's Machinations is being placed here for it's combo potential with these "Way of the" enchantments that will already
+                        be in play for Machinations to be relevent.<br><br>
+                        <div class="imageFlex">
+                            <img class="magicCard" src="https://cards.scryfall.io/grid/front/5/0/50326a2a-7e10-464b-a97e-e880bda0558c.webp">
+                            <img class="magicCard" src="https://cards.scryfall.io/grid/front/1/2/12dd46b2-e892-4660-b120-55766fd4d878.webp">
+                            <img class="magicCard" src="https://cards.scryfall.io/grid/front/a/2/a252cb01-537b-4afe-9abc-81a98c4a1439.webp">
+                        </div>
+                    </div>
+                    <br>
+                    <h5>Removal</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard one" src="https://cards.scryfall.io/grid/front/d/d/ddad9f16-52d5-49de-82b0-b1a5294a9c44.webp">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/2/8/282588b9-3656-453b-aa25-2419e078ddc1.webp">
+                    </div>
+                    <div class="three">
+                        <br>*Jace's Machinations is being placed here for it's combo potential with this "Way of the" enchantment that will already
+                        be in play for Machinations to be relevent.<br><br>
+                        <div class="imageFlex">
+                            <img class="magicCard" src="https://cards.scryfall.io/grid/front/6/d/6d86e410-20c4-4248-96bf-5780ece6274a.webp">
+                        </div>
+                    </div>
+                    <br>
+                    <h5>Counterspells</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/1/4/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/8/d/8d754b96-5e44-45af-9c7a-b0da59fbe4c3.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/9/2/9244efad-35ab-45c0-b173-4bc68276cb67.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/1/b/1bf992ff-b7a1-48d9-a7e1-89a48d743fc2.webp">
+                    </div>
+                    <div class="two">
+                        <br>*Countersculpt is being marked based on the assumption that the opponent <b>can</b> behold a Jace, and as a result
+                        only needs to pay 2 mana to cast.
+                    </div>
+                </div>
+                <div id="Black">
+                    <br><br>
+                    <h3>Black</h3>
+                    <br>
+                    <h5>Combat Tricks</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/1/0/100c3b67-0c92-4224-b5ed-67789c612df7.webp">
+                    </div>
+                    <br>
+                    <h5>Removal</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard one" src="https://cards.scryfall.io/grid/front/d/3/d36b0e06-cb82-4c48-bf35-e76f109116f6.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/9/0/90d684a4-9639-4792-8760-2011a7a85370.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/2/3/2381d123-d8c7-4822-98fe-b1c365beb5ed.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/7/e/7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/4/6/46974d94-e900-43e4-92b5-4fb9b9f7cf46.webp">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/e/b/eb4b6ed8-782e-4473-abc9-d50bf2275c6a.webp">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/8/1/811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f.webp">
+                    </div>
+                </div>
+                <div id="Red">
+                    <br><br>
+                    <h3>Red</h3>
+                    <br>
+                    <h5>Combat Tricks</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/8/4/8414a98c-0c79-4884-bc9b-061a6456b392.webp">
+                    </div>
+                    <br>
+                    <h5>Removal</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/d/2/d2e958de-70de-4156-8f9b-b2c0c1ba704a.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/b/5/b5b55617-684a-4036-be9b-a3b24fc9cd5a.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/1/9/19acb2b5-3b3e-43f0-bd81-8426ed3d9c55.webp">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/a/d/ad03ba90-2442-4a71-94df-2088b5b63662.webp">
+                    </div>
+                    <div class="two">
+                        <br>*Wrath of the Bloodmane is being treated based on its' ability to be cast for 2 mana.
+                    </div>
+                </div>
+                <div id="Green">
+                    <br><br>
+                    <h3>Green</h3>
+                    <br>
+                    <h5>Combat Tricks</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard one" src="https://cards.scryfall.io/grid/front/3/8/38589a7c-9cfb-4bcc-845e-9dc205095853.webp">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/d/a/dad6afc9-8505-4cdd-bf79-e9ba4670f2bb.webp">
+                    </div>
+                    <br>
+                    <h5>Removal</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard one" src="https://cards.scryfall.io/grid/front/f/7/f71958e9-6d6d-4393-8b49-567103b50877.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/b/d/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.webp">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/b/6/b635389c-e286-4edb-80d1-23dbe4a18857.webp">
+                    </div>
+                    <div class="one">
+                        <br>*Flourishing Grapple can only target red or white permanents.
+                    </div>
+                </div>
+                <div id="Multicolor">
+                    <br><br>
+                    <h3>Colorless</h3>
+                    <br>
+                    <h5>Combat Tricks</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/a/9/a9793ce9-5a0b-41fe-b9ad-02f6f7da2481.webp">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/7/d/7d29dfa1-9582-47bc-8f42-62b611bdcc4e.webp">
+                    </div><br>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/c/f/cfc54011-647e-4428-bcdb-59400e1da49d.webp">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/8/7/87b40df5-5c0a-41f5-a09c-a04f17066a91.webp">
+                        <img class="magicCard four" src="https://cards.scryfall.io/grid/front/9/8/986f9e98-9d8d-428b-9187-860745cf3269.webp">
+                    </div>
+                    <div class="two">
+                        <br>*Konstrari, Fatehold and Stingerquill Charms could also be used as removal.
+                        <br><br>*Theorix Charm could also be used as a counterspell.
+                    </div>
+                    <br>
+                    <h5>Removal</h5>
+                    <div class="imageFlex">
+                        <img class="magicCard two" src="https://cards.scryfall.io/grid/front/2/b/2b198e10-b507-4314-a29c-a219f06e48b7.webp">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/b/6/b61bcef7-5832-45e6-a2bc-26d4f23707fc.webp">
+                        <img class="magicCard three" src="https://cards.scryfall.io/grid/front/a/8/a803dbe7-153a-4e92-ad4d-c2babebe003d.webp">
+                    </div>
+                    <br><br><br><br><br>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <script src="display.js" type="text/javascript"></script>
+</body>

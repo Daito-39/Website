@@ -1,6 +1,6 @@
 .color_toggle {
     margin: auto;
-    background-color: aqua;
+    background-color:lightpink;
     border-radius: 5%;
     padding: 2% 5%;
 
@@ -10,9 +10,9 @@
 }
 
 .color_toggle:hover {
-    background-color: blue;
+    background-color:lightsalmon;
 }
 
 .color_toggle:active {
-    background-color: darkviolet;
+    background-color: rgb(204, 108, 191);
 }

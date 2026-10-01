@@ -479,6 +479,8 @@ function display() {
             img.classList.add('magicCard')
             result.appendChild(img);
         }
+    } else {
+        result.innerText = "Nothing found";
     }
 }
 

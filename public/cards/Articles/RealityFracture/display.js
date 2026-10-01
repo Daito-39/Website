@@ -10,7 +10,6 @@ const fou_sel = document.getElementById("4_selection");
 
 const result = document.getElementById("result");
 
-
 var white = false;
 var blue = false;
 var black = false;

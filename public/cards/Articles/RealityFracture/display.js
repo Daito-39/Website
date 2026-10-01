@@ -508,3 +508,27 @@ function check_mv(mana) {
     }
     return false;
 }
+
+function reset() {
+    white = false;
+    blue = false;
+    black = false;
+    red = false;
+    green = false;
+    one = false;
+    two = false;
+    thr = false;
+    fou = false;
+
+    white_sel.innerText = "No"
+    blue_sel.innerText = "No"
+    black_sel.innerText = "No"
+    red_sel.innerText = "No"
+    green_sel.innerText = "No"
+    one_sel.innerText = "No"
+    two_sel.innerText = "No"
+    thr_sel.innerText = "No"
+    fou_sel.innerText = "No"
+
+    result.innerHTML = '';
+}

@@ -184,3 +184,8 @@ img {
     animation-delay: 2.25s;
     -webkit-animation-delay: 2.25s;
 }
+
+.animation-delay-4 {
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
